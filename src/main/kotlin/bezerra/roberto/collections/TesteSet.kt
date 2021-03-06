@@ -6,7 +6,7 @@ fun main() {
     val maria = Funcionario("Maria", 4000.0, "CLT")
 //criação de dois conjuntos de objetos
     val funcionarios1 = setOf(joao, pedro)
-    val funcionarios2 = setOf(maria)
+    val funcionarios2 = setOf(maria, joao)
 //união de dois conjuntos
     val resultUnion = funcionarios1.union(funcionarios2)
 
